@@ -15,7 +15,7 @@ idade: 30,
 casado: false
 };
 
-document.getElementById('variavel-composta').innerText = `compostas: frutas ${frutas.join(', ')}, pessoa: nome ${pessoa.nome}, idade: ${pessoa.idade}, casado: ${pessoa.casado}`;
+document.getElementById('variavel-composta').innerText = `compostas: frutas ${frutas.join(', ')}, pessoa: nome: ${pessoa.nome}, idade: ${pessoa.idade}, casado: ${pessoa.casado}`;
 
 //variáveis de variáveis
 let a = 10;
@@ -40,7 +40,6 @@ event.preventDefault();
 let novafruta = document.getElementById('nova-fruta').value;
 frutasarray.push(novafruta);
 document.getElementById('lista-frutas').innerText = `lista de frutas: ${frutasarray.join(', ')}`;
-
 document.getElementById('nova-fruta').value = '';
 });
 
