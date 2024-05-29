@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio geral</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+     <h1>EXERCÍCIO DE JAVASCRIPT</h1> 
+<section class="container-geral">
+<!--CALCULADORA-->
+
+
+    <div class="container">
+              <h2>Calculadora</h2>
+                <input type="number" id="numero1" placeholder="numero 1">
+                <input type="number" id="numero2" placeholder="numero 2">
+
+        <div class="operacao">
+            <button onclick="calcular('+')">+</button>
+            <button onclick="calcular('-')">-</button>
+            <button onclick="calcular('*')">*</button>
+            <button onclick="calcular('/')">/</button>
+        </div>
+               <p id="resultado"></p>   
+    </div>
+
+
+<!--EXERCÍCIO PRÁTICO-->
+    <div class="container2">
+        <h2>Adicionar frutas</h2>
+    
+        <form id="form-frutas">
+    
+        <input type="text" id="nova-fruta" placeholder="digite uma fruta" required>
+        <button type="submit">Adicionar Fruta</button>
+        </form>
+
+    <p id="lista-frutas"></p>
+    
+    </div>
+
+
+<!--GERADOR DE NÚMEROS ALEATÓRIOS-->
+    <div class="container3">
+
+        <h2>Gerador de números aleatórios</h2>
+
+        <button id="gerar-numero" onclick="gerar()">Gerar número aleatório</button>
+
+            <p class="gerador" id="numero-gerado"></p>
+
+
+    </div>
+
+
+    <div class="container4">
+
+    <h2>Contador de clicks</h2>
+
+    <button id="botao">Clique aqui</button>
+   <input type="text" name="" id="contador">
+
+    </div>
+</section>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
